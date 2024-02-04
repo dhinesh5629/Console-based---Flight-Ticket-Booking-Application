@@ -1,0 +1,52 @@
+Console based project - Flight Ticket Booking Application (presidio round 2)
+
+Implemented functionalities:
+1. New admin creation
+2. New user creation
+3. User login
+4. Admin login
+
+----------------------------------------------------------------------------
+
+Features included:
+
+Users functionality:
+
+1. Users can filter the each flight using flight ID and can do the following functions:
+   Book Ticket
+   cancel Ticket
+   Print Ticket details
+
+----------------------------------------
+
+Admins functionality:
+
+1. Admins can filter each flight individually and view their booking details along with each passenger details from that flight (including total seats available, current ticket price and number of tickets booked)
+                                                                                          or
+2. Admins can view the complete booking summary of all flights and view their booking details along with each passenger details from that flight (including total seats available, current ticket price and number of tickets booked)
+
+------------------------------------------------------------------------------
+
+Additional features added:
+
+1. Multi-User Support:
+   Created the ability to register and authenticate multiple users with distinct usernames and passwords (using HashSet)
+
+2. Cancel Tickets Functionality:
+   Implemented the functionality for users to cancel their booked tickets.
+   Extended cancellation of tickets based on passenger ID and can cancel their recently booked tickets.
+
+3. Detailed Booking Information:
+   Enhanced the "View Bookings" feature for admins to display detailed passenger information, including passenger ID, number of tickets booked, and total cost.
+
+4. Dynamic Flight Creation:
+   Allowed admins to dynamically create new flights, expanding the system's capacity to handle multiple flights.
+
+-------------------------------------------------------------------------------
+
+Bug Fixes and Improvements:
+
+1. Addressed bugs related to ticket cancellation and the display of booking details.
+  
+3. Improved the application's overall logic and flow for a better user experience with multiple class files and structured every functionalities neatly.
+   
