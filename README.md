@@ -29,12 +29,16 @@ Admins functionality:
 
 Additional features added:
 
+1. Demand-based pricing:
+   Adjusting ticket prices in response to changing demand. As each ticket is booked, the pricing algorithm automatically increases the cost of the remaining tickets. This dynamic pricing strategy 
+   allows airlines to adapt to fluctuations in demand, optimizing revenue by adjusting ticket prices based on real-time booking activity.
+   
 1. Multi-User Support:
-   Created the ability to register and authenticate multiple users with distinct usernames and passwords (using HashSet)
+   Created the ability to register and authenticate multiple users and admins with distinct usernames and passwords (using HashSet).
 
 2. Cancel Tickets Functionality:
    Implemented the functionality for users to cancel their booked tickets.
-   Extended cancellation of tickets based on passenger ID and can cancel their recently booked tickets.
+   Extended cancellation of tickets based on passenger ID and users can cancel their recently booked tickets (if they have multiple bookings)
 
 3. Detailed Booking Information:
    Enhanced the "View Bookings" feature for admins to display detailed passenger information, including passenger ID, number of tickets booked, and total cost.
