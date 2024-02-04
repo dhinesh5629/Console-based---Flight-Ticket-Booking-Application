@@ -1,4 +1,4 @@
-Console based project - Flight Ticket Booking Application (presidio round 2)
+Console based application - Flight Ticket Booking Application (presidio round 2)
 
 Implemented functionalities:
 1. New admin creation
