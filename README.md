@@ -53,4 +53,32 @@ Bug Fixes and Improvements:
 1. Addressed bugs related to ticket cancellation and the display of booking details.
   
 3. Improved the application's overall logic and flow for a better user experience with multiple class files and structured every functionalities neatly.
+
+--------------------------------------------------------------------------------
+
+Working:
+
+There are 7 individual classes in the project contributing to each functionalities:
+
+1. TicketBooker : 
+   Main class for handling user interaction, authentication, and navigation through features like booking, cancellation, flight search and view bookings.
    
+2. Flight : 
+   Represents each flight details, bookings, and prices. Provides methods for booking, canceling, and printing flight information.
+   
+3. PassengerDetails :
+   Holds the details of each passenger's booking, including Passenger ID, ticket count, and total cost.
+   
+4. User :
+   Represents each users with an unique username and password for authentication.
+   
+5. UserManager :
+   Manages user-related tasks, such as adding users and authenticating credentials.
+   
+6. Admin :
+   Represents each admins with an unique username and password for authentication.
+   
+7. AdminManager :
+   Manages admin-related tasks, such as creating admins and authenticating admin credentials.
+
+Note: PassengerDetails class is written along with the Flight class, UserManager Class is written along with the User class, AdminManager class is written along with the Admin class.
